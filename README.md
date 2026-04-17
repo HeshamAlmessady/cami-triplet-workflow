@@ -24,14 +24,14 @@ triplet_workflow.py
 
 ```bash
 python triplet_workflow.py \
-  --hyb-binning /net/projects/halmessa/BGC_project/genome_binning_cami2/plant_associated_dataset/ground_truth/rhizosphere_hybrid_pooled_gsa.binning \
-  --short-binning /net/projects/halmessa/BGC_project/genome_binning_cami2/plant_associated_dataset/ground_truth/rhizosphere_short_read_pooled_gsa.binning \
-  --hyb-gsa /net/projects/halmessa/BGC_project/plant_BGC_paper/rhimgCAMI2_hybrid_nanosim_pooled_gsa.fasta \
-  --short-gsa /net/projects/halmessa/BGC_project/plant_BGC_paper/rhimgCAMI2_short_read_pooled_gsa.fasta \
-  --genome-map /net/projects/halmessa/BGC_project/plant_BGC_paper/genome_to_id.tsv \
-  --target-groups /net/projects/halmessa/BGC_project/plant_BGC_paper/target_groups.tsv \
-  --target-taxids /net/projects/halmessa/BGC_project/plant_BGC_paper/target_taxids.txt \
-  --outdir /net/projects/halmessa/BGC_project/plant_BGC_paper/run_from_script \
+  --hyb-binning path to CAMI ground truth hybrid-reads binning file  \
+  --short-binning path to CAMI ground truth short-reads binning file  \
+  --hyb-gsa path to CAMI hybrid-reads gsa fasta file  \
+  --short-gsa path to CAMI short-reads gsa fasta file  \
+  --genome-map  path to genome_to_id.tsv \
+  --target-groups path to target_groups.tsv \
+  --target-taxids path to target_taxids.txt \
+  --outdir path to output directory \
   --generate-mags \
   --build-summaries
 ```
