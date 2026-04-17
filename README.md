@@ -55,7 +55,7 @@ and MAG directories such as:
 The downstream GECCO, QUAST, and BGC-QUAST analysis can be run separately using a shell script, for example:
 
 ```bash
-run_quast_bgcquast_top5.sh path to triplet workflow output directory
+run_quast_bgcquast_top5.sh path_to_triplet_workflow_output_directory
 ```
 
 ## Author
